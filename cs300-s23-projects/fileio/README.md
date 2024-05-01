@@ -14,3 +14,4 @@ The io300_write function has the same structure:
 io300_write(struct io300_file* const f, const char* buff, size_t const sz)
 In this case, the caller puts the bytes they want to write into the application buffer buff. They then call io300_write on buff, which writes the first sz bytes of buff to the file f.
 
+
